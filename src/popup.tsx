@@ -4,7 +4,7 @@ import "~style.css"
 import { useChat } from 'ai/react';
 
 function IndexPopup() {
-  const { messages, input, handleInputChange, handleSubmit } = useChat({ api: "http://localhost:3000/api/chat" });
+  const { messages, input, handleInputChange, handleSubmit } = useChat({ api: process.env.API_ROUTE });
 
   return (
     <div className="plasmo-bg-gradient-to-br plasmo-from-indigo-500 plasmo-via-purple-500 plasmo-to-pink-500 plasmo-h-96 plasmo-w-96 plasmo-py-3 plasmo-px-5">
