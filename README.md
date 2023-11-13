@@ -1,6 +1,21 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+## Video Representation for the Chrome Extension
+This is the video represents for the working of the chrome extension.
 
-## Getting Started
+
+
+https://github.com/Souvik-223/ai-buddy/assets/107457931/ad64fa4e-3794-45db-8644-963b561e8216
+
+
+
+## Extension Details
+This a chrome extension made using plasmo framework ([Plasmo extension](https://docs.plasmo.com/)) which uses - React, Typescript, Tailwind css and chrome MV3.
+
+`Popup.tsx` - Main entry file that contains the design view for the chrome extension model. It also calls the backend api server and generates a streaming response for the user as displayed in the video.
+
+`Designing` - Tailwind css is use for the designing of the chrome extension.
+
+
+## Setup Details
 
 First, run the development server:
 
